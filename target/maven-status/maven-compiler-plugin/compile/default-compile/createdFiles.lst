@@ -1,5 +1,8 @@
 ejem1\api.class
+ejem1\api$1.class
+ejem1\LoginRequest.class
 ejem1\Reaccion.class
+ejem1\RememberRequest.class
 ejem1\FollowRequest.class
 ejem1\Post.class
 ejem1\Seguidor.class
