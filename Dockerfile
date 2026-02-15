@@ -1,5 +1,5 @@
-FROM amazoncorretto:23-alpine-jdk
+FROM tomcat:10.1-jdk17
 
-COPY target/api.jar /api-v1.jar
+COPY target/api.war /usr/local/tomcat/webapps/ROOT.war
 
-ENTRYPOINT ["java", "-jar", "/api-v1.jar"]
+EXPOSE 8080

@@ -1,6 +1,5 @@
 package ejem1;
 
-import java.security.SecureRandom;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -12,8 +11,7 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.regex.Matcher;
 import jakarta.mail.*;
-import jakarta.mail.internet.*;
-import java.util.Properties;
+
 
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
